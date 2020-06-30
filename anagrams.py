@@ -27,6 +27,7 @@ def find_anagrams(words):
     Example:
     {'dgo': ['dog'], 'act': ['cat', 'act']}
     """
+
     anagrams = {}
     for word in words:
         if alphabetize(word) in anagrams:
